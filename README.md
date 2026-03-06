@@ -1,5 +1,5 @@
 # Indira Qatrunnada - Personal Website
-# Milestone 1 | RevoU FSSE Feb26
+### Milestone 1 | RevoU FSSE Feb26
 
 ---
 

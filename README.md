@@ -58,7 +58,7 @@ The site is hosted live on GitHub Pages and accessible to anyone.
 ```
 /
 ├── index.html       # Main HTML file
-├── style.css        # Stylesheet
+├── index.css        # Stylesheet
 └── README.md        # This file
 ```
 

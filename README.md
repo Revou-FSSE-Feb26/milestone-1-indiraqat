@@ -5,7 +5,9 @@
 
 ## Overview
 
-This is my personal website built as part of **Milestone 1** for the RevoU Full Stack Software Engineering program. It serves as a digital portfolio and personal introduction page. sharing who I am, my background, projects, and a way to get in touch.
+This is my personal website built as part of **Milestone 1** for the RevoU Full Stack Software Engineering program. It serves as a digital portfolio and personal introduction page, sharing who I am, my background, projects, and a way to get in touch.
+
+Building on the HTML structure from Module 1, this update adds a dedicated CSS stylesheet to style and improve the visual appearance of the website.
 
 The site is hosted live on GitHub Pages and accessible to anyone.
 
@@ -15,6 +17,7 @@ The site is hosted live on GitHub Pages and accessible to anyone.
 
 ## Features Implemented
 
+### Module 1 — HTML Structure
 - **Home Section** — Introduction with name and tagline
 - **About Me Section** — Bio, education, work experience, skills, and interests & hobbies
 - **Projects Section** — Table listing current and past projects with description, tech used, and status
@@ -24,6 +27,18 @@ The site is hosted live on GitHub Pages and accessible to anyone.
 - **Material Symbols Icons** — Google icon font used in the Interests & Hobbies section
 - **Semantic HTML** — Proper use of `<header>`, `<main>`, `<section>`, `<article>`, `<nav>`, `<footer>`, `<blockquote>`, `<form>`
 
+### Module 2 — CSS Styling
+- **External Stylesheet** — All styles moved to a separate `index.css` file linked to `index.html`
+- **Font Hierarchy** — Different sizes, weights, and colors for `h1`, `h2`, `h3`, and `p` to create clear visual hierarchy
+- **Color Theme** — Consistent warm brown and cream tones throughout the page
+- **Flexbox Layout** — Used in the navigation bar and footer for alignment and spacing
+- **max-width** — Main content capped at 680px so it stays readable on wide screens
+- **Hover Effects** — On nav links, blockquote cards, table rows, and buttons
+- **Styled Form** — Inputs, textarea, select, and buttons all styled with consistent colors and rounded corners, with a focus highlight on active fields
+- **Responsive Design** — Two breakpoints using media queries:
+  - Tablet (768px and below)
+  - Mobile (600px and below)
+
 ---
 
 ## Technologies Used
@@ -31,10 +46,21 @@ The site is hosted live on GitHub Pages and accessible to anyone.
 | Technology | Purpose |
 |---|---|
 | HTML5 | Page structure and all content |
-| CSS (minimal) | Styling for nav, footer, and body layout only |
+| CSS3 | Styling, layout, hover effects, and responsive design |
 | Google Fonts — Material Symbols | Icons for the Interests & Hobbies section |
 | Git | Version control |
 | GitHub Pages | Deployment and hosting |
+
+---
+
+## File Structure
+
+```
+/
+├── index.html       # Main HTML file
+├── style.css        # Stylesheet
+└── README.md        # This file
+```
 
 ---
 

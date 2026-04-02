@@ -25,8 +25,13 @@
       <!-- home -->
       <section id="home">
         <header>
-          <h1>Indira Qatrunnada</h1>
-          <p>Software Engineering Student · Reader · Researcher · Collector of small things</p>
+          <div>
+            <h1>Indira Qatrunnada</h1>
+            <p>Software Engineering Student · Reader · Researcher · Collector of small things</p>
+          </div>
+          <div class="hero-photo">
+            <img src="profile.jpg" alt="Indira Qatrunnada" />
+          </div>
         </header>
       </section>
 
@@ -35,98 +40,149 @@
       <!-- about -->
       <section id="about">
         <h2>About Me</h2>
-        <article>
-          <h3>Bio</h3>
-          <p>Hi, I'm <strong>Indi</strong>. 
-         
-          <p>I am a young professional with experience in research and development,
-            media production, and managing projects/events across government, corporate,
-            and organizational settings.</p>
-          <p> I am currently exploring software engineering, driven by a passion for understanding how technology can solve complex problems
-            and create scalable solutions. I enjoy blending analytical thinking with creativity
-            to build systems and tools that support innovation and efficiency. My adaptability,
-            combined with a proactive mindset, allows me to collaborate with diverse teams
-            and contribute to meaningful, lasting impact in everything I do.</p>
-          <p>Outside of work, i keep a running list of books and movies to indulge myself in,
-            hunting trinkets that i could put on every surface, and i think the best thing a city could have is walkable sidewalk, among other things</p>
-        </article>
 
-        <article>
-          <h3>Education</h3>
-          <ul>
-            <li>
-              <strong>Bachelor of Political Science</strong> — Adam Mickiewicz University, Poznań, Poland<br />
-              GPA: 3.9/4.0 <br /> Graduated with Honors (Cum-Laude)
-            </li>
-          </ul>
-        </article>
+        <div class="about-grid">
 
-        <article>
-         <h3>Work Experience</h3>
-         <ol>
-          <li>
-           <strong>PreSales and Communication</strong> — ELO Digital Office Indonesia<br />
-           <em>Aug 2024 - Sep 2025</em><br/>
-          Experienced in presales and product advocacy, supporting sales teams with product expertise and 
-          tailored customer solutions. Skilled in creating presales materials, delivering product demonstrations, 
-          and developing customer-focused collateral. Adept at identifying client requirements, customizing solutions, 
-          and providing product feedback. Also experienced in preparing tender and PoC documentation and organizing webinars, 
-          workshops, and industry events to promote ELO products.
-          </li>
-          <li>
-           <strong>Research Intern</strong> — Ministry of Foreign Affairs of the Republic of Indonesia<br />
-           <em>Sep 2022 - Dec 2022</em><br/>
-           Intern under the Directorate of Socio-Cultural Affairs and International Organizations of Developing Countries, 
-           supporting research and program development. Assisted in organizing and participating in conferences and forums 
-           with government agencies, private institutions, and international organizations. Responsible for compiling relevant data, 
-           coordinating with speakers and invited guests, and translating and proofreading official documents.
-          </li>
-         </ol>
-        </article>
+          <!-- bio -->
+          <article class="full-width">
+            <h3>Bio</h3>
+            <p>Hi, I'm <strong>Indi</strong>.</p>
+            <p>I am a young professional with experience in research and development,
+              media production, and managing projects/events across government, corporate,
+              and organizational settings.</p>
+            <p>I am currently exploring software engineering, driven by a passion for understanding how technology can solve complex problems
+              and create scalable solutions. I enjoy blending analytical thinking with creativity
+              to build systems and tools that support innovation and efficiency. My adaptability,
+              combined with a proactive mindset, allows me to collaborate with diverse teams
+              and contribute to meaningful, lasting impact in everything I do.</p>
+            <p>Outside of work, i keep a running list of books and movies to indulge myself in,
+              hunting trinkets that i could put on every surface, and i think the best thing a city could have is walkable sidewalk, among other things</p>
+          </article>
 
-        <article>
-          <h3>Skills</h3>
-          <ol>
-            <li>HTML — semantic structure, forms, tables</li>
-            <li>Git &amp; GitHub — version control, GitHub Pages deployment</li>
-            <li>CSS — basic styling, layout, and responsive design</li>
-            <li>Figma — basic UI/UX design and wireframing</li>
-            <li>Canva — graphic design for presentations and social media</li>
-            <li>Adobe Photoshop — photo editing and graphic design</li>
-            <li>DaVinci Resolve — video editing and color correction</li>
-            <li>Microsoft Office — Word, PowerPoint, and Excel for documentation and presentations</li>
-            <li>Reading documentation (a surprisingly useful skill)</li>
-          </ol>
-        </article>
+          <!-- education -->
+          <article>
+            <h3>Education</h3>
+            <div class="edu-card">
+              <div class="edu-top">
+                <span class="edu-degree">Bachelor of Political Science</span>
+                <span class="edu-badge">Cum Laude</span>
+              </div>
+              <p class="edu-school">Adam Mickiewicz University, Poznań, Poland</p>
+              <div class="edu-bottom">
+                <span class="edu-gpa">GPA 4.0 / 5.0</span>
+              </div>
+            </div>
+          </article>
 
-        <article>
-          <h3>Interests &amp; Hobbies</h3>
+          <!-- skills -->
+          <article>
+            <h3>Skills</h3>
+            <div class="skills-group">
+              <p class="skills-label">Code</p>
+              <div class="skills-pills">
+                <span class="pill">HTML</span>
+                <span class="pill">CSS</span>
+                <span class="pill">Git & GitHub</span>
+              </div>
+              <p class="skills-label">Design</p>
+              <div class="skills-pills">
+                <span class="pill">Figma</span>
+                <span class="pill">Canva</span>
+                <span class="pill">Adobe Photoshop</span>
+              </div>
+              <p class="skills-label">Media</p>
+              <div class="skills-pills">
+                <span class="pill">DaVinci Resolve</span>
+                <span class="pill">Microsoft Office</span>
+              </div>
+              <p class="skills-label">Other</p>
+              <div class="skills-pills">
+                <span class="pill">Reading Docs</span>
+              </div>
+            </div>
+          </article>
 
-          <blockquote>
-            <strong><span class="material-symbols-outlined">newsstand</span> Reading</strong><br />
-            Fiction, philosophy, anything with good prose. Currently building a list I'll never finish.
-          </blockquote>
+          <!-- work experience -->
+          <article class="full-width">
+            <h3>Work Experience</h3>
+            <ol>
+              <li>
+                <strong>PreSales and Communication</strong> — ELO Digital Office Indonesia<br />
+                <em>Aug 2024 - Sep 2025</em><br/>
+                Experienced in presales and product advocacy, supporting sales teams with product expertise and
+                tailored customer solutions. Skilled in creating presales materials, delivering product demonstrations,
+                and developing customer-focused collateral. Adept at identifying client requirements, customizing solutions,
+                and providing product feedback. Also experienced in preparing tender and PoC documentation and organizing webinars,
+                workshops, and industry events to promote ELO products.
+              </li>
+              <li>
+                <strong>Research Intern</strong> — Ministry of Foreign Affairs of the Republic of Indonesia<br />
+                <em>Sep 2022 - Dec 2022</em><br/>
+                Intern under the Directorate of Socio-Cultural Affairs and International Organizations of Developing Countries,
+                supporting research and program development. Assisted in organizing and participating in conferences and forums
+                with government agencies, private institutions, and international organizations. Responsible for compiling relevant data,
+                coordinating with speakers and invited guests, and translating and proofreading official documents.
+              </li>
+            </ol>
+          </article>
 
-          <blockquote>
-            <strong><span class="material-symbols-outlined">movie</span> Watching Films</strong><br />
-            Currently decolonizing my viewing habits by starting my journey on indigenous cinema &amp; non-hollywood.
-          </blockquote>
+          <!-- hobbies -->
+          <article class="full-width">
+            <h3>Interests & Hobbies</h3>
+            <div class="hobbies-grid">
 
-          <blockquote>
-            <strong><span class="material-symbols-outlined">ink_pen</span> Writing</strong><br />
-            Journaling, essays, research papers, political articles. Mostly for myself, sometimes for no one.
-          </blockquote>
+              <div class="hobby-card">
+                <span class="hobby-icon material-symbols-outlined">newsstand</span>
+                <div class="hobby-text">
+                  <strong>Reading</strong>
+                  <p>Fiction, philosophy, anything with good prose. Currently building a list I'll never finish.</p>
+                </div>
+              </div>
 
-          <blockquote>
-            <strong><span class="material-symbols-outlined">kid_star</span> Collecting Trinkets</strong><br />
-            Pins, keychains, small objects, things with texture. Every piece has a story.
-          </blockquote>
+              <div class="hobby-card">
+                <span class="hobby-icon material-symbols-outlined">movie</span>
+                <div class="hobby-text">
+                  <strong>Watching Films</strong>
+                  <p>Decolonizing my viewing habits — indigenous cinema & non-Hollywood.</p>
+                </div>
+              </div>
 
-          <blockquote>
-            <strong><span class="material-symbols-outlined">hiking</span> Winter Hiking</strong><br />
-            Winter breeze + quiet trails = pure bliss. Cold air clears my head better than anything.
-          </blockquote>
-        </article>
+              <div class="hobby-card">
+                <span class="hobby-icon material-symbols-outlined">ink_pen</span>
+                <div class="hobby-text">
+                  <strong>Writing</strong>
+                  <p>Journaling, essays, research papers, political articles. Mostly for myself.</p>
+                </div>
+              </div>
+
+              <div class="hobby-card">
+                <span class="hobby-icon material-symbols-outlined">kid_star</span>
+                <div class="hobby-text">
+                  <strong>Collecting Trinkets</strong>
+                  <p>Pins, keychains, small objects, things with texture. Every piece has a story.</p>
+                </div>
+              </div>
+
+              <div class="hobby-card">
+                <span class="hobby-icon material-symbols-outlined">hiking</span>
+                <div class="hobby-text">
+                  <strong>Winter Hiking</strong>
+                  <p>Winter breeze + quiet trails = pure bliss. Cold air clears my head best.</p>
+                </div>
+              </div>
+
+                <div class="hobby-card">
+                <span class="hobby-icon material-symbols-outlined">Content_cut</span>
+                <div class="hobby-text">
+                  <strong>Tinkering and Crafting</strong>
+                  <p>Into tinkering and crafting, always building, fixing, or creating something.</p>
+                </div>
+              </div>
+
+            </div>
+          </article>
+
+        </div>
       </section>
 
       <hr />
@@ -156,14 +212,14 @@
               <td>02</td>
               <td><strong>Personal Website</strong></td>
               <td>This page! A personal intro site with multiple sections, such as projects, and contact form.</td>
-              <td>HTML, CSS (minimal), GitHub</td>
+              <td>HTML, CSS, GitHub</td>
               <td>✅ Live</td>
             </tr>
-             <tr>
+            <tr>
               <td>03</td>
               <td><strong>Published Research Articles</strong></td>
               <td>Authored and contributed to academic research articles published in journals, involving literature review,
-                 data analysis, academic writing, and collaborative research.</td>
+                data analysis, academic writing, and collaborative research.</td>
               <td>Microsoft Office, Canva</td>
               <td>✅ Live</td>
             </tr>

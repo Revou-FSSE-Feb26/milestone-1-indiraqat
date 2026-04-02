@@ -7,7 +7,7 @@
 
 This is my personal website built as part of **Milestone 1** for the RevoU Full Stack Software Engineering program. It serves as a digital portfolio and personal introduction page, sharing who I am, my background, projects, and a way to get in touch.
 
-Building on the HTML structure from Module 1, this update adds a dedicated CSS stylesheet to style and improve the visual appearance of the website.
+Building on the HTML structure from Milestone 1, this update adds a dedicated CSS stylesheet to style and improve the visual appearance of the website.
 
 The site is hosted live on GitHub Pages and accessible to anyone.
 
@@ -28,13 +28,21 @@ The site is hosted live on GitHub Pages and accessible to anyone.
 - **Semantic HTML** — Proper use of `<header>`, `<main>`, `<section>`, `<article>`, `<nav>`, `<footer>`, `<blockquote>`, `<form>`
 
 ### Module 2 — CSS Styling
-- **External Stylesheet** — All styles moved to a separate `index.css` file linked to `index.html`
+- **External Stylesheet** — All styles in a separate `index.css` file linked to `index.html`
+- **Animations** — Fade-up entrance animations on page load using `@keyframes`, staggered across sections
 - **Font Hierarchy** — Different sizes, weights, and colors for `h1`, `h2`, `h3`, and `p` to create clear visual hierarchy
 - **Color Theme** — Consistent warm brown and cream tones throughout the page
-- **Flexbox Layout** — Used in the navigation bar and footer for alignment and spacing
-- **max-width** — Main content capped at 680px so it stays readable on wide screens
-- **Hover Effects** — On nav links, blockquote cards, table rows, and buttons
-- **Styled Form** — Inputs, textarea, select, and buttons all styled with consistent colors and rounded corners, with a focus highlight on active fields
+- **CSS Grid Layout** — Used in the hero section, about section, education & skills columns, and hobbies grid
+- **Flexbox Layout** — Used in the navigation bar, footer, and education card elements
+- **max-width** — Main content capped at 1100px for comfortable reading on wide screens
+- **Background Image** — Subtle dot pattern using `radial-gradient` with `background-size`
+- **Responsive Images** — Profile photo uses `max-width: 100%`, `height: auto`, and `object-fit: cover`
+- **Hover Effects** — On nav links, hero photo, education card, skill pills, hobby cards, table rows, and buttons
+- **Transitions & Animations** — Smooth transitions on all interactive elements
+- **Education Card** — Styled card with degree name, Cum Laude badge, university, and GPA tag
+- **Skills Pills** — Grouped pill/tag chips by category with hover fill effect
+- **Hobby Cards** — Icon cards in a two-column grid with Google Material icons
+- **Styled Form** — Inputs, textarea, select, and buttons styled with consistent colors, rounded corners, and focus highlight
 - **Responsive Design** — Two breakpoints using media queries:
   - Tablet (768px and below)
   - Mobile (600px and below)
@@ -46,7 +54,7 @@ The site is hosted live on GitHub Pages and accessible to anyone.
 | Technology | Purpose |
 |---|---|
 | HTML5 | Page structure and all content |
-| CSS3 | Styling, layout, hover effects, and responsive design |
+| CSS3 | Styling, layout, animations, hover effects, and responsive design |
 | Google Fonts — Material Symbols | Icons for the Interests & Hobbies section |
 | Git | Version control |
 | GitHub Pages | Deployment and hosting |
@@ -58,7 +66,8 @@ The site is hosted live on GitHub Pages and accessible to anyone.
 ```
 /
 ├── index.html       # Main HTML file
-├── index.css        # Stylesheet
+├── style.css        # Stylesheet
+├── profile.jpg      # Profile photo used in the hero section
 └── README.md        # This file
 ```
 
